@@ -20,7 +20,7 @@ $UnavailableDevices = 0
 Write-Host "The Network Monitor -"(Get-Date -format "dd-MMM-yyyy HH:mm:ss")
 
 # CSV File Import
-$DeviceList = Import-Csv -Path "G:\Michael\OneDrive\Desktop\The Network Monitor\DeviceList.csv"
+$DeviceList = Import-Csv -Path ".\DeviceList.csv"
 
 # Ping Devices
 Foreach ($Device in $DeviceList){
