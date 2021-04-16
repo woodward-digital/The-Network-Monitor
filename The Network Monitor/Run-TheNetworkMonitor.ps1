@@ -6,6 +6,10 @@
 # Email: contact@woodward.digital
 # Version: v1.0
 ###########################################################################################
+
+#Set 
+$host.ui.RawUI.WindowTitle = “The Network Monitor”
+
 # Set Loop
 $Exit = "False"
 Do{
